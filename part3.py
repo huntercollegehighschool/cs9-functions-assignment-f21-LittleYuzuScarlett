@@ -18,5 +18,10 @@ def factorial(number):
     product *= i
   return product
 
+
 def combination(n, r):  # do not change this line
-  combination = n(factorial) / (r(factorial)*((n-r)(factorial))  # delete the word pass when you start writing your code
+  com = ((factorial(n) // (factorial(r))* (factorial(n-r))) 
+  return com
+
+# delete the word pass when you start writing your code
+#I was really confused with this one--
